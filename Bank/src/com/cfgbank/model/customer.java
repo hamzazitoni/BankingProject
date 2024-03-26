@@ -1,7 +1,7 @@
 package com.cfgbank.model;
 
 public class customer {
-    private String customerId;
+    private int customerId;
     private String firstName;
     private String lastName;
     private String address;
@@ -11,7 +11,7 @@ public class customer {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public customer(String customerId, String firstName, String lastName, String address, String emailId,
+	public customer(int customerId, String firstName, String lastName, String address, String emailId,
 			String mobileNumber) {
 		super();
 		this.customerId = customerId;
@@ -21,10 +21,10 @@ public class customer {
 		this.emailId = emailId;
 		this.mobileNumber = mobileNumber;
 	}
-	public String getCustomerId() {
+	public int getCustomerId() {
 		return customerId;
 	}
-	public void setCustomerId(String customerId) {
+	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
 	public String getFirstName() {

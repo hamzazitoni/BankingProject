@@ -1,8 +1,8 @@
 package com.cfgbank.model;
 
 public class Account {
-    private String accountId;
-    private String customerId;
+    private int accountId;
+    private int customerId;
     private double balance;
     private String accountType;
     private double overdraftLimit;
@@ -10,7 +10,7 @@ public class Account {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public Account(String accountId, String customerId, double balance, String accountType, double overdraftLimit) {
+	public Account(int accountId, int customerId, double balance, String accountType, double overdraftLimit) {
 		super();
 		this.accountId = accountId;
 		this.customerId = customerId;
@@ -18,16 +18,16 @@ public class Account {
 		this.accountType = accountType;
 		this.overdraftLimit = overdraftLimit;
 	}
-	public String getAccountId() {
+	public int getAccountId() {
 		return accountId;
 	}
-	public void setAccountId(String accountId) {
+	public void setAccountId(int accountId) {
 		this.accountId = accountId;
 	}
-	public String getCustomerId() {
+	public int getCustomerId() {
 		return customerId;
 	}
-	public void setCustomerId(String customerId) {
+	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
 	public double getBalance() {

@@ -1,29 +1,29 @@
 package com.cfgbank.model;
 
 public class Credentials {
-	  private String accountId;
-	    private String customerId;
+		private int accountId;
+	    private int customerId;
 	    private String password;
 		public Credentials() {
 			super();
 			// TODO Auto-generated constructor stub
 		}
-		public Credentials(String accountId, String customerId, String password) {
+		public Credentials(int accountId, int customerId, String password) {
 			super();
 			this.accountId = accountId;
 			this.customerId = customerId;
 			this.password = password;
 		}
-		public String getAccountId() {
+		public int getAccountId() {
 			return accountId;
 		}
-		public void setAccountId(String accountId) {
+		public void setAccountId(int accountId) {
 			this.accountId = accountId;
 		}
-		public String getCustomerId() {
+		public int getCustomerId() {
 			return customerId;
 		}
-		public void setCustomerId(String customerId) {
+		public void setCustomerId(int customerId) {
 			this.customerId = customerId;
 		}
 		public String getPassword() {
